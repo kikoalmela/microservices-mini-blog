@@ -1,6 +1,8 @@
 # Microservices Blog Concept
 
-Minimalist Blog with moderated comments, made for the sake of illustrating a microservices architecture with an event bus.
+Minimalist Blog with moderated comments, made for the sake of testing a basic microservices architecture with a custom and event bus.
+
+No database, data are stored in memory, so cleared every restart.
 
 ## Requirements
 Docker, Kubernetes and Skaffold have to be installed for local deployment.
@@ -11,6 +13,3 @@ The domain `posts.com` is used as http route in this project as example. To acce
 `127.0.0.1 posts.com`
 
 In the terminal, inside the project's root directory, run `skaffold dev`
-
-
-
